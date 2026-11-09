@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Thanuja Hasaranga - Computer Engineering student and aspiring full-stack developer from Sri Lanka">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:title" content="Thanuja Hasaranga | Portfolio">
+  <meta property="og:description" content="Computer Engineering student building clean, useful web experiences.">
+  <meta property="og:type" content="website">
+  <title>Thanuja Hasaranga | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Go to home">
+        <span class="brand-mark">TH</span>
+        <span>Thanuja<span></span>Hasaranga</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu"
+              aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#github" class="nav-link">GitHub</a>
+        <a href="#journey" class="nav-link">Journey</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+          <span id="themeIcon">☾</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="pulse-dot"></span> Available for creative projects</p>
+          <h1>Building digital experiences with <em>purpose.</em></h1>
+          <p class="hero-text">
+            I'm <strong>Thanuja Hasaranga</strong>, a Computer Engineering student and aspiring
+            full-stack developer who enjoys turning ideas into clean, useful web experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="btn btn-ghost" href="#contact">Let's talk</a>
+          </div>
+
+          <div class="quick-stats" aria-label="Portfolio highlights">
+            <div><strong>03+</strong><span>Projects</span></div>
+            <div><strong>02+</strong><span>Years learning</span></div>
+            <div><strong>10+</strong><span>Technologies</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-image-wrap">
+              <img src="profile.jpeg" alt="Portrait of Thanuja Hasaranga" width="863" height="1178" decoding="async">
+              <span class="status-badge"><i></i> Online</span>
+            </div>
+            <div class="profile-meta">
+              <div>
+                <small>Currently</small>
+                <strong>Learning & Building</strong>
+              </div>
+              <span class="code-symbol">&lt;/&gt;</span>
+            </div>
+          </div>
+
+          <div class="floating-note note-top-left">
+            <span class="note-icon">✦</span>
+            <div><small>Focus</small><strong>Web Development</strong></div>
+          </div>
+
+          <div class="floating-note note-bottom">
+            <span class="note-icon">⌁</span>
+            <div><small>Based in</small><strong>Sri Lanka</strong></div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to about section">
+        <span>Scroll to explore</span><i>↓</i>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container section-grid">
+        <div class="section-label reveal">
+          <span>01</span>
+          <p>About me</p>
+        </div>
+        <div class="about-content reveal">
+          <p class="section-kicker">A little context</p>
+          <h2>Curious mind. <br><span>Practical builder.</span></h2>
+          <div class="about-columns">
+            <p>
+              I’m a student developer interested in building websites and software that
+              feel simple, fast, and genuinely useful. I like learning by making things,
+              breaking them, and then making them better.
+            </p>
+            <p>
+              My current interests include front-end development, JavaScript, UI design,
+              APIs, and database-driven applications. This portfolio is one of my projects
+              and is intentionally easy to customise.
+            </p>
+          </div>
+          <div class="about-details">
+            <div><span>Name</span><strong>Thanuja Hasaranga</strong></div>
+            <div><span>Role</span><strong>Student Developer</strong></div>
+            <div><span>Email</span><strong>thanujahasaranga1@email.com</strong></div>
+            <div><span>Location</span><strong>Sri Lanka</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>02</span><p>Toolkit</p></div>
+          <div>
+            <p class="section-kicker">What I work with</p>
+            <h2>Tools that turn ideas<br><span>into interfaces.</span></h2>
+          </div>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skill-card featured reveal">
+            <div class="skill-number">01</div>
+            <span class="skill-icon">◈</span>
+            <h3>Frontend Development</h3>
+            <p>Responsive interfaces with semantic HTML, modern CSS and vanilla JavaScript.</p>
+            <div class="tag-row"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">02</div>
+            <span class="skill-icon">⌘</span>
+            <h3>Programming</h3>
+            <p>Problem solving and application development using different programming languages.</p>
+            <div class="tag-row"><span>Java</span><span>Python</span><span>C</span><span>JavaFX</span><span>Spring Boot</span></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-number">03</div>
+            <span class="skill-icon">◇</span>
+            <h3>Database & Tools</h3>
+            <p>Working with data, version control, development environments and APIs.</p>
+            <div class="tag-row"><span>MySQL</span><span>Git</span><span>REST API</span><span>Hibernate</span></div>
+          </article>
+        </div>
+
+        <div class="tech-strip reveal" aria-label="Technologies">
+          <span>HTML5</span><i>•</i><span>CSS3</span><i>•</i><span>JavaScript</span><i>•</i>
+          <span>Git</span><i>•</i><span>MySQL</span><i>•</i><span>Java</span><i>•</i><span>Figma</span>
+          <i>•</i><span>JavaFX</span><i>•</i><span>SpringBoot</span>
+        </div>
+      </div>
+    </section>
+    <!-- GITHUB API -->
+    <section class="section github-section" id="github">
+      <div class="container">
+        <div class="github-header reveal">
+          <div>
+            <p class="section-kicker">Live from GitHub</p>
+            <h2>Open-source<br><span>activity.</span></h2>
+          </div>
+          <div>
+            <p>
+              My latest public repositories, loaded live from the GitHub API.
+            </p>
+            <a class="btn github-cta" href="https://github.com/thanujaX" target="_blank" rel="noopener noreferrer">
+              View all on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="repo-grid" id="repoGrid" aria-live="polite">
+          <div class="loading-card"><span class="loader"></span> Loading repositories...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section journey-section" id="journey">
+      <div class="container section-grid">
+        <div class="section-label reveal"><span>04</span><p>My journey</p></div>
+        <div class="journey-content">
+          <p class="section-kicker reveal">Learning by doing</p>
+          <h2 class="reveal">A timeline of <span>progress.</span></h2>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-dot"></span>
+              <div class="timeline-date">2026 — NOW</div>
+              <div><h3>Web Development</h3><p>Building responsive interfaces, JavaScript projects and API-based applications.</p></div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-dot"></span>
+              <div class="timeline-date">2025</div>
+              <div><h3>Application Development</h3><p>Expanded programming knowledge through academic and personal projects.</p></div>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-dot"></span>
+              <div class="timeline-date">2024</div>
+              <div><h3>Started the Journey</h3><p>Developed a strong foundation in programming, databases and software concepts.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box reveal">
+        <div class="contact-copy">
+          <p class="section-kicker">Have an idea?</p>
+          <h2>Let's make something<br><em>worth clicking.</em></h2>
+          <p>I'm always interested in learning, collaborating and working on meaningful projects.</p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:thanujahasaranga1@email.com" class="contact-email">thanujahasaranga1@email.com <span>↗</span></a>
+          <div class="social-links">
+            <a href="https://github.com/thanujaX" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/thanuja-hasaranga-a051293ab" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">IN</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Thanuja Hasaranga</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+      <p class="section-kicker" id="modalType">Project</p>
+      <h2 id="modalTitle">Project title</h2>
+      <p id="modalDescription"></p>
+      <div class="modal-details">
+        <div><span>Role</span><strong id="modalRole"></strong></div>
+        <div><span>Stack</span><strong id="modalStack"></strong></div>
+        <div><span>Focus</span><strong id="modalFocus"></strong></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
